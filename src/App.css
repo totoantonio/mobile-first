@@ -1,0 +1,54 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Albert Sans", sans-serif; /* Your chosen font */
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* White background */
+}
+
+.container {
+  text-align: center;
+  max-width: 700px; /* Restrict content width */
+  padding: 1rem;
+  margin: auto;
+}
+
+/* Google Shield Icon */
+.icon {
+  margin-bottom: 1rem;
+}
+
+.shield {
+  width: 50px; /* Icon size */
+  height: auto;
+}
+
+/* Main Heading */
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #333; /* Dark text */
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.highlighted {
+  color: #1a73e8; /* Blue color for emphasis */
+}
+
+/* Paragraph */
+.description {
+  font-size: 1rem;
+  color: #555; /* Gray text */
+  line-height: 1.5;
+}
